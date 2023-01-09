@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "first-app",
-    "slug": "first-app",
+    "name": "Calculadora IMC",
+    "slug": "Calculator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic_launcher.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.jorge_israel.Calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "004883c8-f5e0-45a0-ae94-aab77d8f486c"
+      }
     }
   }
 }
